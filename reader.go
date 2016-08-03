@@ -112,6 +112,7 @@ type ConnectionType struct {
 // The Domain struct corresponds to the data in the GeoIP2 Domain database.
 type Domain struct {
 	Domain string `maxminddb:"domain"`
+	Source string `maxminddb:"source"`
 }
 
 // The ISP struct corresponds to the data in the GeoIP2 ISP database.
